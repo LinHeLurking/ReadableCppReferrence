@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Readable C++ Referrence
-// @version      0.1
+// @version      0.2
 // @namespace    http://tampermonkey.net/
 // @version      2024-05-07
 // @description  Readable C++ Referrence!
@@ -24,7 +24,6 @@
     body_content.css("font-size", "16px");
     $("div.mw-geshi").css("width", "47em");
     $("pre").css("width", "47em");
-    $("table").css("font-size", "80%");
     // Table of content
     const toc = [];
     $(".mw-headline").each((i, obj) => {
